@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: darkmagenta;
+
+    
+}
+.baap {
+    flex: 1;
+    background-color: darkorange;
+
+
+    display: flex;
+    flex-direction:column ;
+}
+.beta {
+    flex: 1;
+    background-color: darksalmon;
+    display: flex;
+}
+.box {
+    flex: 8;
+    background-color: black;
+}
+.beta1 {
+    /* height: 200;
+    width: 200; */
+    flex: 8;
+    background-color: black;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./boys.css">
+</head>
+<body>
+    <div class="main">
+        <div class="h1">
+            <div class="title">
+                <!-- <h1 class="love"> Practice for layout .)</h1> -->
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALsAAAB8CAMAAAAGozFUAAAAZlBMVEX///86d/8pb/8vcv83df+Ws/67zP/l6/9Pg//o7v/v8/9Vh//f5/9di/9Fff8ibP/1+P/6+/93m/+Gpv/a4/96nv+qwP+Nq/9Aev/N2f9ijv8UZ/9okv+juv/C0P/H1f+yxf/U3v/08rEyAAAD70lEQVR4nO2b25KCMAxAocXlJhQBES/ruv//k1twFCgtNDhL6UzOo3I5xgBJWxwHQRAEQRAEQRAEQRYS+eGIzLSUJt9pLBLcTUtpsmOeCPkyLaXJjrgiFN3/H3Q3w4bcI//3/ijyPD9+f5396DC7w1bcy0eReIQxQjmMMRocq/PMPptwj6rYo9TrS3geJV568qeivwH3sqj5Q2ak0fwAwvIf9Y7G3aPcJVLxpz2ll9+Numc7MhYQdK6Fv0X3Mpkzb4VSuZFJ98ODUQ11njnXQlbbGnQ/FDpBf0Ju0ZbcoxvTVufy7jjpjblnN/2ot1bpfivu2QWm3tzsxcibcgfk+tsrFnLekPsJkusvSDKsEKbcD34f4exR/7twvugbcIZHvYF9a7vv46Aj3Q32y2697wLZHWwCv1ZXAdPyg2GASfe614G7rOifPSZu9x1NYO7HZWHnarW2ezr4nJzeewl3CQ/m/rMk2Z+w/r8PcHfZS94XyhCYe3bTqwSkpL3rDuL+inwmVlAw96/lYecKvcwFuT8jL0Yd6r70Qn1y7aoymHvzs7N4tAvI/fxJ2LlBl/FAdy4vqUNA7scPsr05V/d0hbq7VHJqiLv0oN2RKCGETiYVfXewYHfpGQHuU1cqZWlRVdUpZhP63dW6unuuThmS/GRtcZHtc7W8934+re7OVFIeqXqbnWvlb7y+Cvm13fdX5UGGUxZloPqR7KHhHgaatwSSa9eRynS/irMtoWpLmmu4O2GqJU8uuua851AckRxHmz4U8l6i487/OA15aQ+vIldkQj3qRnnBJz+5F4Q67jqRh0Sd12FydzoOu+NUilL51XXP9XzlnDwo6k6UyN2ZrM/0FUlTl3rucxcsuQHM+dFiuft1nDIcVz467J413acjTy+wjknpHsq2VmxM7rruPPLKZ9z7drVV94MiR5tNT+MTLnP/n5zx44mcGTTgGqx7rY4aPOGksMiveo8cN3ifyavKyH94Ns1EvYGA0ma9mmA26g2gyK9Wi0naahmQyK9VA0e6Y+SQyK/Ve9R66v3efZaJQbGu5yu32fNN99pB22snG+21bR7jMDm2JFu1YMuY3kVS3lgylnqRtYFWjGHTpsEbN+BWzB08G7xRG2jBnA19tdViGwh0NzFX1rXVQuSh7qvPUQ4GM8qaesvnKNeeGw6GY45h8sHc8OI5+eFB9OfkhZVDH83JL1sLIf67uAZliby9a3+sXnNl9Vo3q9cYckqtK3aLazsdq9fUOjavZW4oT7auIW+wd+1+S/+dCWLTOxMth/ZdlVOe50V1t+pdlSWguxnQ3QxWu1v87q3N7zzb/K45giAIgiAIgiAIYow/XuRNpPoKuKkAAAAASUVORK5CYII=" height="20px" width="20px">
+                 <!-- <input type="text" image= "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAYFBMVEX///8AAAD5+fl2dnb8/PxeXl5ycnJaWlrf39/s7Ozn5+efn58QEBBOTk7V1dVpaWlkZGTz8/NEREQjIyOlpaXDw8Ozs7O7u7vOzs6Li4t/f38yMjI4ODgYGBgtLS2ZmZlk6M5oAAAEZklEQVR4nO1baZeqMAyVfROQfVH0///LJw04wKA2aRh853g/jtCE9mZt5nD44osv/jskvlsXdeT6O4gucvusTeA0pftXws0oSI/aCjK78LYX7wXhmvAB5zjSNxXvti+kA8LS3E58vBB2vIROmGaLv3b5NuK96deHbV57+vCtZuJWt/j68+u12EB++RCQWZW/ctJe1KQPFWJu00yscelL/nxts37s0rFilV+PdufUb57Ub6MKBiMZx0WtSOJhPRi0vbC5JmM4+0rym7zBWrJ32yUHc1guRri5ajBNDg1MB9YqUW95g79Up+IgP0OfZ8OkgS2WSQlmnbOcAvA/JUW5EhyCUoQswJ4S2tugQargD1w4f3KEhVOwyfJ1QeVOwZ+0BAOaoFHmMdhQR6QBHECjIP9w8Lt+jRPt5VCVQj0Kui1W4lWZ8PMSwpGnBB7rIrtoVeUffCoPYQMY8uyGtgWm2ICbuvxDkpG2QJDnylJoCHeeYt+y1E1wBJgi0hA8wQCmnMog0DlX8B+/EImvwb2TKvnwBUxRSKOKlYTLBgENmlAVibhPUaBdQcvlBAZgNxQSAcYK84KM617HSgE8CUQmcOSTD9lhLP+84GDIqEAtFpRnYdA/bzAq4PZnepY/U2EEAaMCSd/dOMp79hOnH+yhn3HZlcWtgHkhKMDaY/kvFeA8gt0VwHJApDCc/U6wAnkzvPElhAC/z4wz+S5HyZmQ9RBJWSrfZhDPXxkVEBmJJf88lFOMnX9scEmQpH2LE5bVNrMZoKsM5ngsjrTDtLqgOcLW7hZmjetVUcq557DwJ9oQyrmngEIT12wUhpsRG5RLBJQy58wXj5KUEt1FeRyy0JC2myJ88CQlIS20tVz1aYH2QgBye22JjBrbhSUelSOSMAGNco8JTQrVtAQ2klbpQ7df0R2KOIjsDz0g6JspVelw5UPtNLjiClSlSgYLoIdVuPShhwT4AkQu+AtwaUetkz248VfKrC4KGgzy1bypl5GN0QX5FyX59ww9I/KgHkdLDEVfVsMyFtIaK+0B1UkGaDVrHcaY9dm4D6I9tgp32Exb2pyKTpsBUROtwh+GAa6l1HG6traErcgDfVwyfG9TXvNLPAMPBp/YW1X+8mOix+Fbp5kGqjw4+NbPWs+G5tzgZ8QvH93oCEdVg8kolXZ1gsifUtL03KqdDPnZfQKiG6w8uGcozXSMsAvj9pbnZZkHjW1dpqLSwWLN+fCbqke6w18l2ALphKjW7Bf6JMME+at5xnsOacxjHzcP7tDd5pkO2alc0pOdB7BqVMbnubM7ZmlTrKW+/DwY4ddV3hjxKbbboCxejJI6/DxAYgMe4LDgQbzt3O2qBvM9YOSBND6NB6r5AQFLHmw3/PxUg0/jAeetpCzmPvHLg314MM8P9ucB562QJExjbw0WTPwAHvy9LSx4oFyx4LHgwe4ZCuekhjROO8ufaLDRvwS9x3AKrEMKKOjsIwJY9BXLTuc/wtlZ/hdffPF5+Afl7SqszVkeFwAAAABJRU5ErkJggg==" placeholder="pakistan" list="hhh"> -->
+                <select name="class" id="box" value= ""> 
+                    <option value="radio">  pakistan</option>
+                    <option value=""> zindabad</option>
+                </select>
+                <input type="text"    >
+            
+                
+            </div>
+        </div>
+
+        </div>
+        <div class="box">
+
+            <div class="card">
+                 <div class="pic">
+                    <img src="data:image/jpeg;base64,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" alt="" height="150" width="200">
+                    <h1> RS.40000  </h1>
+                     </div>
+            </div>
+            <div class="card">
+                <div class="pic1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQl3PMtay_CDJdmM6p8h_O8ukrRq6osbCjIKQ&usqp=CAU" alt="" height="150" width="200">
+                    <p>Bol kafara bol kafara mere dil ki dil se toba.............</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="pic3">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRTajfrwEc5gqDjT3IKIydIqtmy855dDi-rcA&usqp=CAU" alt="" height="150" width="200">
+                    <p>The only things you need in order to use this book </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="pic4">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQmquMy7iO8mvkF39tfJ8DlmQeoD4qjVkV6KQ&usqp=CAU" alt="" height="150" width="200">
+                    <p>Anyone who has a website (that may be built..</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="pic5">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQvgp1gY1wRoo5cQxDCXx8YYhAGR8O3M5HvZA&usqp=CAU" alt="" height="150" width="200">
+                    <p>Those who want to learn how to design and build websites</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="pic6">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTJjtbEffwqpzzZ4sHhLRR2Mh_kMFGj6A7kwA&usqp=CAU" alt="" height="150" width="200">
+                    <p>Those who want to learn how to design and build websites </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="pic7">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRXYMefQUYs_g75T96q8Oh99JmICO9u2XMsvQ&usqp=CAU" alt="" height="150" width="200">
+                    <p> Wiley and the Wiley logo are trademarks or registered </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="pic8">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTFKDD2ZPMiyC-P4yhAMlKK3HwmsdOWvVyfUA&usqp=CAU" alt="" height="150" width="200">
+                    <p> written permission. All other trademarks are..........)</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="pic9">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSMWvTiKR8LzeeXcAurKvslFHfR7UCqfTgEdg&usqp=CAU" alt="" height="150" width="200">
+                    <p>the property of their respective owners. John Wiley.............</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="pic10">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRumO5Oty6bcGATzm6kRS0yW2GPPyKBgBfGew&usqp=CAU" alt="" height="150" width="200">
+                    <p> Requests to the Publisher for
+                        permission should ..</p>
+                </div>
+            </div>
+            
+            
+            
+            
+            
+        
+        </div>
+    </div>
+    
+</body>
+<!-- <script src="./index.js"></script> -->
+
+
+
+
+
+
+
+
+</html>

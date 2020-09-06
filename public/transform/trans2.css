@@ -1,0 +1,35 @@
+body {
+margin: 0;
+padding: 0;
+background-color: aliceblue;
+}
+.box  {
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #191919;
+    text-align-last: center;
+}
+.box span {
+    width: 80px;
+    height: 80px;
+    display: block;
+    background-color: blue;
+    animation: lol 4s infinite;
+}
+@keyframes lol {0%}
+margin: 0;
+{
+    45%
+}
+{
+    50%
+}
+{
+    75%
+}
+{
+    100%
+}
